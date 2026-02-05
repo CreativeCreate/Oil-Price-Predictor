@@ -266,7 +266,7 @@ def main():
     # 7. Next-day prediction
     print_next_day_prediction(df, feature_cols, results, scaler)
 
-    print("Done. Check the 'output' folder for the prediction plot.")
+    print(f"Done. Plot saved: {OUTPUT_DIR}/actual_vs_predicted.png")
     print("=" * 60)
 
 
